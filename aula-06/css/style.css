@@ -1,0 +1,26 @@
+@import url(./reset.css);
+@import url(./normalize.css);
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 16px;
+}
+
+#pergunta {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#questoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#questoes button {
+    height: 32px;
+}
+
+#proxima-pergunta {
+    margin-top: 16px;
+}
