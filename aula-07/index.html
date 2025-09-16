@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    </style>
+    <script async src="./js/login.js"></script>
+</head>
+<body>
+    <form id="login-form" method="post">
+        <input type="text" name="username" placeholder="Usuário">
+        <input type="password" name="password" placeholder="Senha">
+        Não tem acesso? <a href="./pages/cadastro.html">Cadastre-se aqui.</a>
+        <button>Entrar</button>
+        <p id="message"></p>
+    </form>
+</body>
+</html>
